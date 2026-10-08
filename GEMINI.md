@@ -1,0 +1,1 @@
+Read and follow `AGENTS.md` in this directory before doing workspace work. After interruptions or project changes, reload the contract and active project documents. Skill loading is file-based; do not assume YAML installs tools or capabilities.

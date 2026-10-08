@@ -1,0 +1,28 @@
+version: 1
+id: vercel-composition-patterns
+name: Vercel Composition Patterns
+category: upstream-guidance
+description: React component composition guidance from Vercel. Use for complex reusable
+  component APIs, boolean-prop proliferation, compound components, context, or state
+  lifting; check the React version before React 19 rules.
+triggers:
+  keywords:
+  - react
+  - component api
+  - compound component
+  - boolean props
+  intents:
+  - component-architecture
+  technologies:
+  - React
+recommended_with:
+- vercel-react-best-practices
+- qa-review
+tools:
+- filesystem
+- terminal
+verification:
+- Apply relevant rules to the actual changed files.
+- Run existing project checks where appropriate.
+instructions: SKILL.md
+provenance: provenance.json

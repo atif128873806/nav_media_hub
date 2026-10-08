@@ -1,0 +1,32 @@
+version: 1
+id: business-admin
+name: Booking and Business Admin
+category: domain
+description: Use for approved booking, salon, limo, lead, service, staff, schedule,
+  customer, or invoice management; adapt workflows to the actual business.
+triggers:
+  keywords:
+  - booking
+  - appointment
+  - salon
+  - limo
+  - lead
+  - staff
+  - schedule
+  - invoice
+  intents:
+  - business-admin
+  technologies: []
+recommended_with:
+- admin-panel
+- database-design
+- qa-review
+- security-review
+tools:
+- filesystem
+- terminal
+- browser
+verification:
+- Test approved lifecycle and ownership rules.
+- Verify timezone, availability, and operational actions when applicable.
+instructions: SKILL.md

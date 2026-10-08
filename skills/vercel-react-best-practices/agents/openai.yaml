@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vercel React Best Practices"
+  short_description: "Official React performance rules with project safeguards"
+  default_prompt: "Use $vercel-react-best-practices to review this React change against the relevant performance rules."

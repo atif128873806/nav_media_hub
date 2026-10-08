@@ -1,0 +1,34 @@
+version: 1
+tools:
+  filesystem:
+    purpose: Read and write authorized project files.
+    availability: runtime-check
+    policy: local
+  terminal:
+    purpose: Run relevant commands in verified project environments.
+    availability: runtime-check
+    policy: local
+  git:
+    purpose: Inspect and prepare repository changes.
+    availability: runtime-check
+    policy: local
+  browser:
+    purpose: Inspect available references and actual implemented UI.
+    availability: runtime-check
+    policy: conditional
+  web:
+    purpose: Research references and documentation when connected.
+    availability: runtime-check
+    policy: conditional
+  github:
+    purpose: Read/review or perform authorized repository actions.
+    availability: runtime-check
+    policy: conditional
+  deployment:
+    purpose: Perform authorized environment-specific release actions.
+    availability: runtime-check
+    policy: restricted
+  figma:
+    purpose: Optional integration; not required by any core workflow.
+    availability: runtime-check
+    policy: optional

@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Workspace Skill Manifest",
+  "type": "object",
+  "required": [
+    "version",
+    "id",
+    "name",
+    "category",
+    "description",
+    "triggers",
+    "recommended_with",
+    "tools",
+    "verification",
+    "instructions"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "triggers": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "title": "Skill triggers",
+      "type": "object",
+      "required": [
+        "keywords",
+        "intents",
+        "technologies"
+      ],
+      "properties": {
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "intents": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "technologies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "file_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "recommended_with": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "verification": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "instructions": {
+      "const": "SKILL.md"
+    },
+    "provenance": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

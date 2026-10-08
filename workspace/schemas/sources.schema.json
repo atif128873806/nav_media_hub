@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source registry",
+  "type": "object",
+  "required": [
+    "version",
+    "sources"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "Source",
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "roles",
+          "authority",
+          "processing_status",
+          "summary"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^SRC-[A-Za-z0-9-]+$"
+          },
+          "type": {
+            "enum": [
+              "user-instruction",
+              "meeting",
+              "website",
+              "note",
+              "pdf",
+              "image",
+              "document",
+              "other"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https?://"
+          },
+          "roles": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "visual",
+                "structure",
+                "feature",
+                "ux",
+                "booking-flow",
+                "competitor",
+                "explicit-requirement",
+                "evidence"
+              ]
+            }
+          },
+          "authority": {
+            "enum": [
+              "user-approved",
+              "client-statement",
+              "reference",
+              "ai-summary",
+              "unknown"
+            ]
+          },
+          "processing_status": {
+            "enum": [
+              "pending",
+              "processed",
+              "blocked",
+              "superseded"
+            ]
+          },
+          "summary": {
+            "type": "string"
+          },
+          "received_at": {
+            "type": "string"
+          },
+          "observed_at": {
+            "type": "string"
+          },
+          "extracted_items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        },
+        "additionalProperties": false,
+        "anyOf": [
+          {
+            "required": [
+              "path"
+            ]
+          },
+          {
+            "required": [
+              "url"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

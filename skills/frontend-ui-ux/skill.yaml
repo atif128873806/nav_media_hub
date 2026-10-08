@@ -1,0 +1,34 @@
+version: 1
+id: frontend-ui-ux
+name: Professional Frontend UI/UX
+category: design
+description: Use for designing, improving, or implementing website/app interfaces,
+  typography, responsive behavior, accessibility, states, or visual hierarchy; avoid
+  generic AI design.
+triggers:
+  keywords:
+  - ui
+  - ux
+  - frontend
+  - design
+  - landing
+  - responsive
+  - spacing
+  - dashboard
+  intents:
+  - design
+  - implement-frontend
+  - ui-change
+  technologies: []
+recommended_with:
+- web-design-guidelines
+- qa-review
+tools:
+- filesystem
+- browser
+- terminal
+- web
+verification:
+- Inspect relevant viewport sizes and keyboard behavior.
+- Review against DESIGN.md and accepted reference aspects.
+instructions: SKILL.md

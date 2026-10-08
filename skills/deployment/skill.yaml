@@ -1,0 +1,29 @@
+version: 1
+id: deployment
+name: Deployment Preparation and Operations
+category: operations
+description: Use for hosting setup, deployment planning, migrations, queues, health
+  checks, rollback, or authorized operational changes; verify environment and permissions.
+triggers:
+  keywords:
+  - deploy
+  - nginx
+  - vps
+  - hosting
+  - release
+  - rollback
+  intents:
+  - deploy
+  - operations
+  technologies: []
+recommended_with:
+- security-review
+- qa-review
+tools:
+- filesystem
+- terminal
+- deployment
+verification:
+- Verify environment-specific health checks.
+- Review backup/rollback and migration impact.
+instructions: SKILL.md

@@ -1,0 +1,47 @@
+version: 1
+reviewed_at: '2026-10-04'
+skills:
+- id: vercel-react-best-practices
+  path: skills/vercel-react-best-practices
+  repository: https://github.com/vercel-labs/agent-skills
+  revision: 063bee94c3f4df8453406c830b0a7df0f2860278
+  source_path: skills/react-best-practices
+  upstream_skill_sha256: 71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355
+  reviewed_at: '2026-10-04'
+  adapted: true
+  provenance: skills/vercel-react-best-practices/provenance.json
+  entry_sha256: 73a7aef0f664286aadd74a31bc0055b0db87e1f076a7295e85879d299143f713
+  provenance_sha256: 9e12113b66ca2d5cbbf0d449c4a9b85c8afa9cd1a1ab11920b40c7944d118355
+- id: vercel-composition-patterns
+  path: skills/vercel-composition-patterns
+  repository: https://github.com/vercel-labs/agent-skills
+  revision: 063bee94c3f4df8453406c830b0a7df0f2860278
+  source_path: skills/composition-patterns
+  upstream_skill_sha256: e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3
+  reviewed_at: '2026-10-04'
+  adapted: true
+  provenance: skills/vercel-composition-patterns/provenance.json
+  entry_sha256: 495c97208ae34d7cb20778c2f73c1d4186083a721899e3d9e07d59b4a64f5bec
+  provenance_sha256: d1042f90d037e7e830d4b07ba333882dc9fb1a9932b1666262fa078228bd5e4d
+- id: web-design-guidelines
+  path: skills/web-design-guidelines
+  repository: https://github.com/vercel-labs/agent-skills
+  revision: 063bee94c3f4df8453406c830b0a7df0f2860278
+  source_path: skills/web-design-guidelines
+  upstream_skill_sha256: f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f
+  reviewed_at: '2026-10-04'
+  adapted: true
+  provenance: skills/web-design-guidelines/provenance.json
+  entry_sha256: fc859d6ef6c9cdd0c434bef8388ee19cc8f320f679d3fa856840fbd8f5ace069
+  provenance_sha256: 06f8cea4cb343deafe1341739a714068893f0853168fa4c39addb3fb3cfc11ba
+- id: laravel-best-practices
+  path: skills/laravel-best-practices
+  repository: https://github.com/laravel/boost
+  revision: 97b8da0cb8c2c1da75531a36e34adaa313a64afc
+  source_path: .ai/laravel/skill/laravel-best-practices
+  upstream_skill_sha256: 3eeacd93123654b2a78caf3f839bda24299d5b2d2bab02f4a1491140d0d865eb
+  reviewed_at: '2026-10-04'
+  adapted: true
+  provenance: skills/laravel-best-practices/provenance.json
+  entry_sha256: ad5b6e2e65f8ae51dd8979ef0adeb7a8c65683c7cf3a2613d0846cfe413507a4
+  provenance_sha256: 3fe792c88dcc2be8ca687ee9ced8e734de17dcd4e3e5d78028b42648833c8b91

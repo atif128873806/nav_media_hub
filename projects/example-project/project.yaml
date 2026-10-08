@@ -1,0 +1,46 @@
+version: 1
+id: example-project
+name: Example Client Project
+status: requirements
+description: Replace this description with the actual client project outcome.
+repository:
+  path: null
+stack:
+  frontend: []
+  backend:
+  - Laravel
+  - PHP
+  database: []
+  infrastructure: []
+default_skills:
+- context-intake
+- laravel-backend
+- laravel-best-practices
+- frontend-ui-ux
+- admin-panel
+- qa-review
+- security-review
+tools:
+  filesystem: true
+  terminal: true
+  git: true
+  browser: true
+  web: true
+  github: false
+  deployment: false
+verification:
+- Replace with the real project test/build commands before implementation.
+docs:
+  overview: PROJECT.md
+  rules: AGENTS.md
+  requirements: REQUIREMENTS.md
+  architecture: ARCHITECTURE.md
+  design: DESIGN.md
+  decisions: DECISIONS.md
+  tasks: TASKS.md
+  roadmap: ROADMAP.md
+  memory: MEMORY.md
+  context_index: context/CONTEXT_INDEX.md
+  client_brief: context/CLIENT_BRIEF.md
+  sources: context/sources.yaml
+  handoff: memory/HANDOFF.md

@@ -1,0 +1,26 @@
+version: 1
+id: research
+name: Evidence-based Research
+category: research
+description: Use for unfamiliar architecture, competitors, reference patterns, technical
+  options, or current documentation; distinguish observed evidence from recommendations.
+triggers:
+  keywords:
+  - research
+  - compare
+  - competitor
+  - documentation
+  - study
+  intents:
+  - research
+  technologies: []
+recommended_with:
+- context-intake
+tools:
+- web
+- github
+- filesystem
+verification:
+- Check source attribution, date, and relevance.
+- Separate facts from inference.
+instructions: SKILL.md

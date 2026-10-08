@@ -1,0 +1,40 @@
+version: 1
+id: ai-workspace
+name: AI Workspace
+status: implementation
+description: Provider-independent developer workspace foundation.
+repository:
+  path: ../..
+stack:
+  frontend: []
+  backend: []
+  database: []
+  infrastructure: []
+default_skills:
+- context-intake
+- frontend-ui-ux
+- qa-review
+tools:
+  filesystem: true
+  terminal: true
+  git: true
+  browser: true
+  web: true
+  github: false
+  deployment: false
+verification:
+- python3 tools/workspace.py validate
+docs:
+  overview: PROJECT.md
+  rules: AGENTS.md
+  requirements: REQUIREMENTS.md
+  architecture: ARCHITECTURE.md
+  design: DESIGN.md
+  decisions: DECISIONS.md
+  tasks: TASKS.md
+  roadmap: ROADMAP.md
+  memory: MEMORY.md
+  context_index: context/CONTEXT_INDEX.md
+  client_brief: context/CLIENT_BRIEF.md
+  sources: context/sources.yaml
+  handoff: memory/HANDOFF.md

@@ -1,0 +1,29 @@
+version: 1
+id: web-design-guidelines
+name: Vercel Web Design Guidelines
+category: upstream-guidance
+description: Review implemented interfaces for accessibility, focus, forms, performance,
+  navigation, and UX using a pinned Vercel rule snapshot. Use for UI review or accessibility
+  checks; project-specific original design remains authoritative.
+triggers:
+  keywords:
+  - accessibility
+  - ui review
+  - interface review
+  - focus
+  - forms
+  intents:
+  - ui-review
+  - accessibility-review
+  technologies: []
+recommended_with:
+- frontend-ui-ux
+- qa-review
+tools:
+- filesystem
+- browser
+verification:
+- Apply relevant rules to the actual changed files.
+- Run existing project checks where appropriate.
+instructions: SKILL.md
+provenance: provenance.json

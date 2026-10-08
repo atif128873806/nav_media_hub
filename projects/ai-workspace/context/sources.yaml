@@ -1,0 +1,39 @@
+version: 1
+sources:
+- id: SRC-USER-001
+  type: user-instruction
+  path: USER_REQUEST_SUMMARY.md
+  roles:
+  - explicit-requirement
+  authority: user-approved
+  processing_status: processed
+  summary: User-confirmed portable developer workspace, client reference interpretation,
+    professional UI/Laravel/admin skills, and final usable foundation.
+  received_at: '2026-10-04'
+  extracted_items:
+  - REQ-001
+  - REQ-002
+  - REQ-003
+  - REQ-004
+  - REQ-005
+  - REQ-006
+  - REQ-007
+  - REQ-008
+  - DEC-001
+  - DEC-002
+  - DEC-003
+  - DEC-004
+  - DEC-005
+- id: SRC-USER-002
+  type: user-instruction
+  path: UPSTREAM_APPROVAL.md
+  roles:
+  - explicit-requirement
+  authority: user-approved
+  processing_status: processed
+  summary: User accepted combining custom work rules with selected official-source
+    specialist skills and approved proceeding.
+  received_at: '2026-10-04'
+  extracted_items:
+  - REQ-009
+  - DEC-006

@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-10-07",
+  "sources": [
+    {
+      "id": "SRC-RULES",
+      "original": "/home/atif/nabmediahub/AGENTS.md",
+      "snapshot": "context/inbox/2026-10-07-existing-handoff/AGENTS.md",
+      "sha256": "fb33e872e19e1821e782f0337ffdfbcd658bdc43674c1dd75c26c61bb99a8cf0",
+      "canonical_location": "/home/atif/nav_mediaHub_workspace_project/projects/nav-media-hub/AGENTS.md"
+    },
+    {
+      "id": "SRC-REFERENCE-AUDIT",
+      "original": "/home/atif/nabmediahub/Nav_Media_Hub_Laravel_Coding_Handoff/docs/Nav_Media_Hub_01_Global_Reference_Audit.md",
+      "snapshot": "context/inbox/2026-10-07-existing-handoff/Nav_Media_Hub_01_Global_Reference_Audit.md",
+      "sha256": "f0df6fbce08c4148df576f1b44cc63da4de43ffa4c22e83ca695c303dd922033",
+      "canonical_location": "/home/atif/nav_mediaHub_workspace_project/projects/nav-media-hub/docs/Nav_Media_Hub_01_Global_Reference_Audit.md"
+    },
+    {
+      "id": "SRC-DESIGN",
+      "original": "/home/atif/nabmediahub/Nav_Media_Hub_Laravel_Coding_Handoff/docs/Nav_Media_Hub_02_Design_and_Page_Blueprint.md",
+      "snapshot": "context/inbox/2026-10-07-existing-handoff/Nav_Media_Hub_02_Design_and_Page_Blueprint.md",
+      "sha256": "1c37f64b9be23041ca6420f37fb6932b337a622f71d9bc3789499c29e87207c4",
+      "canonical_location": "/home/atif/nav_mediaHub_workspace_project/projects/nav-media-hub/docs/Nav_Media_Hub_02_Design_and_Page_Blueprint.md"
+    },
+    {
+      "id": "SRC-INQUIRY",
+      "original": "/home/atif/nabmediahub/Nav_Media_Hub_Laravel_Coding_Handoff/docs/Nav_Media_Hub_03_Inquiry_and_Booking_Spec.md",
+      "snapshot": "context/inbox/2026-10-07-existing-handoff/Nav_Media_Hub_03_Inquiry_and_Booking_Spec.md",
+      "sha256": "7bdd56e8adcec7d29a0e5fe72f5343e74629827805567a1db7152bdabb4c5d6c",
+      "canonical_location": "/home/atif/nav_mediaHub_workspace_project/projects/nav-media-hub/docs/Nav_Media_Hub_03_Inquiry_and_Booking_Spec.md"
+    },
+    {
+      "id": "SRC-HANDOFF",
+      "original": "/home/atif/nabmediahub/Nav_Media_Hub_Laravel_Coding_Handoff/docs/Nav_Media_Hub_04_Content_and_Handoff.md",
+      "snapshot": "context/inbox/2026-10-07-existing-handoff/Nav_Media_Hub_04_Content_and_Handoff.md",
+      "sha256": "d14c4f682d95dda5260f4229cccaba6fcae6dd88cb9e18b77574fed60846713a",
+      "canonical_location": "/home/atif/nav_mediaHub_workspace_project/projects/nav-media-hub/docs/Nav_Media_Hub_04_Content_and_Handoff.md"
+    },
+    {
+      "id": "SRC-LARAVEL",
+      "original": "/home/atif/nabmediahub/Nav_Media_Hub_Laravel_Coding_Handoff/docs/Nav_Media_Hub_05_Laravel_Technical_Plan.md",
+      "snapshot": "context/inbox/2026-10-07-existing-handoff/Nav_Media_Hub_05_Laravel_Technical_Plan.md",
+      "sha256": "8bd4753659dde107bb03d1c57f50d10c163fc4e313d5b28da0f56fc9666ebe81",
+      "canonical_location": "/home/atif/nav_mediaHub_workspace_project/projects/nav-media-hub/docs/Nav_Media_Hub_05_Laravel_Technical_Plan.md"
+    },
+    {
+      "id": "SRC-COMPETITORS",
+      "original": "/home/atif/nabmediahub/Nav_Media_Hub_Laravel_Coding_Handoff/docs/Nav_Media_Hub_Competitor_Research_Brief.md",
+      "snapshot": "context/inbox/2026-10-07-existing-handoff/Nav_Media_Hub_Competitor_Research_Brief.md",
+      "sha256": "657aef3ecba79c4149d489fff3b9a296d53f95b55e7fc7816160023b7d24824f",
+      "canonical_location": "/home/atif/nav_mediaHub_workspace_project/projects/nav-media-hub/docs/Nav_Media_Hub_Competitor_Research_Brief.md"
+    }
+  ],
+  "original_locations_are_historical": true
+}

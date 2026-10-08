@@ -1,0 +1,29 @@
+version: 1
+id: admin-panel
+name: Professional Admin Panel
+category: design
+description: Use for admin dashboards, management tables, filters, forms, detail views,
+  settings, and operational workflows; select modules from approved business scope.
+triggers:
+  keywords:
+  - admin
+  - dashboard
+  - management
+  - table
+  - filters
+  intents:
+  - admin-design
+  - implement-admin
+  technologies: []
+recommended_with:
+- frontend-ui-ux
+- qa-review
+- security-review
+tools:
+- filesystem
+- browser
+- terminal
+verification:
+- Verify real operational workflows and permission boundaries.
+- Inspect list, form, detail, and empty/error states.
+instructions: SKILL.md

@@ -1,0 +1,30 @@
+version: 1
+id: context-intake
+name: Client Context Intake
+category: context
+description: Use for new client briefs, reference websites, meeting transcripts, PDFs,
+  screenshots, feedback, or change requests; extract traceable project context without
+  assuming approval.
+triggers:
+  keywords:
+  - transcript
+  - meeting
+  - reference
+  - client brief
+  - feedback
+  - pdf
+  - whatsapp
+  - inbox
+  intents:
+  - context-intake
+  - requirements
+  technologies: []
+recommended_with:
+- research
+tools:
+- filesystem
+- web
+verification:
+- Check source paths and provenance.
+- Check extracted status and conflicts.
+instructions: SKILL.md

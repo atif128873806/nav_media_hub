@@ -1,0 +1,31 @@
+version: 1
+id: ecommerce-admin
+name: Ecommerce Admin Workflows
+category: domain
+description: Use for approved ecommerce operations such as products, variants, inventory,
+  orders, refunds, shipping, customers, promotions, or commerce reports.
+triggers:
+  keywords:
+  - ecommerce
+  - e-commerce
+  - product
+  - variant
+  - inventory
+  - refund
+  - shipping
+  intents:
+  - commerce-admin
+  technologies: []
+recommended_with:
+- admin-panel
+- database-design
+- security-review
+- qa-review
+tools:
+- filesystem
+- terminal
+- browser
+verification:
+- Test relevant order/stock/payment transitions.
+- Verify calculations and authorization.
+instructions: SKILL.md

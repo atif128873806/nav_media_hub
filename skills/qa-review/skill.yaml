@@ -1,0 +1,28 @@
+version: 1
+id: qa-review
+name: QA and Regression Review
+category: quality
+description: Use for implementation verification, bug reproduction, regression testing,
+  responsive/interaction review, or acceptance checks in client applications.
+triggers:
+  keywords:
+  - test
+  - qa
+  - regression
+  - playwright
+  - bug
+  - verify
+  intents:
+  - test
+  - bug-fix
+  - code-review
+  technologies: []
+recommended_with: []
+tools:
+- filesystem
+- terminal
+- browser
+verification:
+- Record commands/results and observed flows.
+- Map checks to acceptance criteria and risks.
+instructions: SKILL.md

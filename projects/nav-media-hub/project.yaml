@@ -1,0 +1,60 @@
+version: 1
+id: nav-media-hub
+name: Nav Media Hub
+status: implementation
+description: One public creative production page with a hero inquiry form and a separate
+  protected lead inbox.
+repository:
+  path: /home/atif/nabmediahub
+stack:
+  frontend:
+  - Blade
+  - CSS
+  - JavaScript
+  - Vite
+  backend:
+  - Laravel 13
+  - PHP >=8.3
+  database:
+  - SQLite (local only; production database unconfirmed)
+  infrastructure:
+  - Local development; production hosting unconfirmed
+default_skills:
+- context-intake
+- laravel-backend
+- laravel-best-practices
+- frontend-ui-ux
+- admin-panel
+- qa-review
+- security-review
+tools:
+  filesystem: true
+  terminal: true
+  git: true
+  browser: true
+  web: true
+  github: false
+  deployment: false
+verification:
+- Run application commands from /home/atif/nabmediahub.
+- npm run build
+- composer validate --no-check-publish
+- php artisan route:list --except-vendor
+- php artisan test (existing tests are scaffold examples; substantive inquiry/admin
+  coverage remains pending)
+- Manual desktop/mobile inquiry-to-admin acceptance and media playback after appropriate
+  test setup and approved media are available.
+docs:
+  overview: PROJECT.md
+  rules: AGENTS.md
+  requirements: REQUIREMENTS.md
+  architecture: ARCHITECTURE.md
+  design: DESIGN.md
+  decisions: DECISIONS.md
+  tasks: TASKS.md
+  roadmap: ROADMAP.md
+  memory: MEMORY.md
+  context_index: context/CONTEXT_INDEX.md
+  client_brief: context/CLIENT_BRIEF.md
+  sources: context/sources.yaml
+  handoff: memory/HANDOFF.md

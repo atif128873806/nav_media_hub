@@ -1,0 +1,32 @@
+version: 1
+id: laravel-architecture
+name: Laravel Architecture
+category: architecture
+description: Use when shaping a Laravel domain, backend structure, module boundaries,
+  API contracts, queues, or a substantial refactor; scale patterns to project complexity.
+triggers:
+  keywords:
+  - architecture
+  - module
+  - domain
+  - backend structure
+  - service
+  - queue
+  intents:
+  - architecture
+  - domain-change
+  technologies:
+  - Laravel
+  - PHP
+recommended_with:
+- database-design
+- security-review
+- qa-review
+tools:
+- filesystem
+- terminal
+- git
+verification:
+- Review domain boundaries and dependency direction.
+- Link decisions to requirements.
+instructions: SKILL.md

@@ -1,0 +1,27 @@
+version: 1
+id: security-review
+name: Application Security Review
+category: quality
+description: Use for authentication, authorization, tenant access, sensitive data,
+  payments, uploads, secrets, APIs, or risk review of backend and admin changes.
+triggers:
+  keywords:
+  - security
+  - auth
+  - permission
+  - tenant
+  - upload
+  - payment
+  - secret
+  intents:
+  - security-review
+  technologies: []
+recommended_with:
+- qa-review
+tools:
+- filesystem
+- terminal
+verification:
+- Test forbidden access and trust boundaries.
+- Review sensitive data exposure and validation.
+instructions: SKILL.md

@@ -1,0 +1,34 @@
+version: 1
+id: laravel-backend
+name: Laravel Backend
+category: development
+description: Coordinate accepted Laravel backend feature work, domain requirements,
+  API integration, project-specific verification, and official Laravel best-practices
+  rule selection.
+triggers:
+  keywords:
+  - laravel
+  - php
+  - artisan
+  - eloquent
+  - controller
+  - middleware
+  intents:
+  - implement-backend
+  - implement-feature
+  - bug-fix
+  technologies:
+  - Laravel
+  - PHP
+recommended_with:
+- laravel-best-practices
+- qa-review
+- security-review
+tools:
+- filesystem
+- terminal
+- git
+verification:
+- Run relevant existing PHP tests.
+- Review routes and authorization.
+instructions: SKILL.md

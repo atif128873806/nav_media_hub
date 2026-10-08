@@ -1,0 +1,33 @@
+version: 1
+id: nextjs
+name: Next.js Frontend Engineering
+category: development
+description: Coordinate Next.js project-specific frontend integration, data contracts,
+  routes, and actual configured checks; load official specialist guidance for performance/composition
+  rather than duplicating it.
+triggers:
+  keywords:
+  - nextjs
+  - next.js
+  - react
+  - typescript
+  - tsx
+  intents:
+  - implement-frontend
+  - bug-fix
+  technologies:
+  - Next.js
+  - React
+  - TypeScript
+recommended_with:
+- vercel-react-best-practices
+- frontend-ui-ux
+- qa-review
+tools:
+- filesystem
+- terminal
+- browser
+verification:
+- Run configured type/lint/build checks.
+- Verify data flows and UI states.
+instructions: SKILL.md

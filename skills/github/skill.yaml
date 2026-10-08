@@ -1,0 +1,29 @@
+version: 1
+id: github
+name: Repository and GitHub Work
+category: operations
+description: Use for code review, repository state, issues, commits, branch preparation,
+  or pull requests when version control or GitHub tools are available.
+triggers:
+  keywords:
+  - github
+  - git
+  - pull request
+  - commit
+  - branch
+  - diff
+  intents:
+  - source-control
+  - code-review
+  technologies: []
+recommended_with:
+- qa-review
+tools:
+- git
+- github
+- filesystem
+- terminal
+verification:
+- Review diff and staged files.
+- Report actual local versus remote state.
+instructions: SKILL.md

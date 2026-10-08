@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vercel Web Design Guidelines"
+  short_description: "Pinned Vercel accessibility and interface review rules"
+  default_prompt: "Use $web-design-guidelines to review the changed UI using the bundled interface guidelines."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Best Practices"
+  short_description: "Official Laravel rules with portable command examples"
+  default_prompt: "Use $laravel-best-practices to implement this Laravel change using the applicable official rules."

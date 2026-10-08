@@ -1,0 +1,36 @@
+version: 1
+id: laravel-best-practices
+name: Laravel Best Practices
+category: upstream-guidance
+description: Official Laravel best-practices rules for writing, reviewing, or refactoring
+  PHP/Laravel models, controllers, validation, authorization, migrations, jobs, queries,
+  and application structure. Use installed-version documentation and established project
+  conventions.
+triggers:
+  keywords:
+  - laravel
+  - php
+  - eloquent
+  - migration
+  - controller
+  - artisan
+  intents:
+  - implement-backend
+  - database-change
+  - code-review
+  - bug-fix
+  technologies:
+  - Laravel
+  - PHP
+recommended_with:
+- laravel-backend
+- qa-review
+- security-review
+tools:
+- filesystem
+- terminal
+verification:
+- Apply relevant rules to the actual changed files.
+- Run existing project checks where appropriate.
+instructions: SKILL.md
+provenance: provenance.json

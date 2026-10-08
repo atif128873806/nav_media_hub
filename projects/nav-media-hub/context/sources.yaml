@@ -1,0 +1,311 @@
+version: 1
+sources:
+- id: SRC-RULES
+  type: document
+  path: inbox/2026-10-07-existing-handoff/AGENTS.md
+  roles:
+  - explicit-requirement
+  authority: user-approved
+  processing_status: processed
+  summary: Historical project rules snapshot; maintained full rules are now project
+    AGENTS.md in the AI workspace.
+  received_at: '2026-10-07'
+- id: SRC-REFERENCE-AUDIT
+  type: document
+  path: inbox/2026-10-07-existing-handoff/Nav_Media_Hub_01_Global_Reference_Audit.md
+  roles:
+  - visual
+  - structure
+  - competitor
+  authority: ai-summary
+  processing_status: processed
+  summary: Dated research and design observations; inspiration only, not approved
+    client claims.
+  received_at: '2026-10-07'
+- id: SRC-DESIGN
+  type: document
+  path: inbox/2026-10-07-existing-handoff/Nav_Media_Hub_02_Design_and_Page_Blueprint.md
+  roles:
+  - visual
+  - structure
+  - ux
+  authority: ai-summary
+  processing_status: processed
+  summary: Proposed editorial cinema direction and responsive composition; final branding
+    is pending.
+  received_at: '2026-10-07'
+- id: SRC-INQUIRY
+  type: document
+  path: inbox/2026-10-07-existing-handoff/Nav_Media_Hub_03_Inquiry_and_Booking_Spec.md
+  roles:
+  - feature
+  - booking-flow
+  authority: ai-summary
+  processing_status: processed
+  summary: Detailed form/admin specification, with scheduling clearly unapproved.
+  received_at: '2026-10-07'
+- id: SRC-HANDOFF
+  type: document
+  path: inbox/2026-10-07-existing-handoff/Nav_Media_Hub_04_Content_and_Handoff.md
+  roles:
+  - evidence
+  authority: ai-summary
+  processing_status: processed
+  summary: Content inventory, baseline scope, unresolved client questions, and demo
+    acceptance criteria.
+  received_at: '2026-10-07'
+- id: SRC-LARAVEL
+  type: document
+  path: inbox/2026-10-07-existing-handoff/Nav_Media_Hub_05_Laravel_Technical_Plan.md
+  roles:
+  - feature
+  - structure
+  authority: ai-summary
+  processing_status: processed
+  summary: Approved PHP/Laravel stack and suggested technical choices; hosting/database
+    remain unconfirmed.
+  received_at: '2026-10-07'
+- id: SRC-COMPETITORS
+  type: document
+  path: inbox/2026-10-07-existing-handoff/Nav_Media_Hub_Competitor_Research_Brief.md
+  roles:
+  - competitor
+  - visual
+  authority: ai-summary
+  processing_status: processed
+  summary: Earlier research brief; its no-development-started statement is historical,
+    not current implementation state.
+  received_at: '2026-10-07'
+- id: SRC-WORKSPACE-REQUEST
+  type: user-instruction
+  path: inbox/2026-10-07-workspace-registration.md
+  roles:
+  - explicit-requirement
+  authority: user-approved
+  processing_status: processed
+  summary: User requests reading the AI workspace and registering the existing project
+    before further work.
+  received_at: '2026-10-07'
+  extracted_items:
+  - REQ-007
+  - DEC-003
+- id: SRC-IMPLEMENTATION
+  type: note
+  path: IMPLEMENTATION_SNAPSHOT.md
+  roles:
+  - evidence
+  authority: ai-summary
+  processing_status: processed
+  summary: Observed application code/dependency state; functional acceptance and current
+    runtime remain unverified.
+  observed_at: '2026-10-07'
+- id: SRC-PORTFOLIO-UPDATE
+  type: user-instruction
+  path: 2026-10-07-portfolio-delivery.md
+  roles:
+  - evidence
+  authority: user-approved
+  processing_status: processed
+  summary: User reports real client portfolio and existing R2; asks for hosting advice.
+    Publication rights and access are not established.
+  received_at: '2026-10-07'
+- id: SRC-R2-RESEARCH
+  type: note
+  path: 2026-10-07-portfolio-delivery.md
+  roles:
+  - evidence
+  authority: ai-summary
+  processing_status: processed
+  summary: Official Cloudflare research; proposed R2 web exports with custom domain,
+    Stream alternative for adaptive playback. Not an approved implementation decision.
+  observed_at: '2026-10-07'
+  extracted_items:
+  - DEC-006
+- id: SRC-CONSOLIDATION
+  type: user-instruction
+  path: 2026-10-07-consolidation-and-media.md
+  roles:
+  - explicit-requirement
+  - evidence
+  authority: user-approved
+  processing_status: processed
+  summary: User authorizes one maintained workspace home for rules/docs and reports
+    Drive videos are 30–40 seconds.
+  received_at: '2026-10-07'
+  extracted_items:
+  - DEC-007
+- id: SRC-PORTFOLIO-SCREENSHOT
+  type: image
+  path: assets/portfolio-message-2026-10-07.png
+  roles:
+  - evidence
+  authority: client-statement
+  processing_status: processed
+  summary: Displayed attachment sizes 184, 99 and 243 MB. Durations and Drive-linked
+    sizes are not visible. Not publication permission.
+  received_at: '2026-10-07'
+
+- id: SRC-LIVE-REFERENCE-AUDIT
+  type: note
+  path: references/2026-10-07-live-competitor-audit.md
+  roles:
+  - competitor
+  - visual
+  - structure
+  - ux
+  authority: reference
+  processing_status: processed
+  summary: Four public competitor/reference homepages opened directly on 2026-10-07; dated observations and project-specific proposals, without approval to copy assets, claims or full layouts.
+  observed_at: '2026-10-07'
+  extracted_items:
+  - REF-AEZ
+  - REF-DBE
+  - REF-ANGLE
+  - REF-RAFHIN
+
+- id: SRC-PORTFOLIO-WEBSITE
+  type: user-instruction
+  path: 2026-10-07-portfolio-website.md
+  roles:
+  - explicit-requirement
+  - evidence
+  - feature
+  authority: user-approved
+  processing_status: processed
+  summary: User directs professional website integration of six supplied portfolio videos, reports Hostinger Premium, and chooses direct website hosting instead of R2 for initial delivery; implementation and limits recorded in dated note.
+  received_at: '2026-10-07'
+  extracted_items:
+  - DEC-008
+  - TASK-012
+
+- id: SRC-REDESIGN
+  type: user-instruction
+  path: 2026-10-07-redesign-and-retheme.md
+  roles:
+  - explicit-requirement
+  - visual
+  - structure
+  authority: user-approved
+  processing_status: processed
+  summary: User instruction to rebuild the public page to competitor-grade visual
+    quality with a distinctive concept and upgraded motion, preserving content and
+    behaviour and limiting new dependencies to explained build-time fonts.
+  received_at: '2026-10-07'
+  extracted_items:
+  - DEC-009
+- id: SRC-RETHEME
+  type: user-instruction
+  path: 2026-10-07-redesign-and-retheme.md
+  roles:
+  - explicit-requirement
+  - visual
+  authority: user-approved
+  processing_status: processed
+  summary: User instruction to replace the black/white section alternation with a
+    premium cohesive palette with no harsh transitions, and to raise animation
+    quality to competitor level. Supersedes the bright Paper section surface in
+    SRC-DESIGN.
+  received_at: '2026-10-07'
+  extracted_items:
+  - DEC-010
+
+- id: SRC-LABEL-MOTION
+  type: user-instruction
+  path: 2026-10-07-label-cleanup-and-work-motion.md
+  roles:
+  - explicit-requirement
+  - visual
+  authority: user-approved
+  processing_status: processed
+  summary: User instruction to remove the section-label dash and the line above
+    the label, and to lift the simpler sections (films grid and services list)
+    with higher-level animation while keeping the design, behaviour and
+    dependencies unchanged.
+  received_at: '2026-10-07'
+  extracted_items:
+  - DEC-011
+  - TASK-015
+
+- id: SRC-LABEL-REFERENCE
+  type: image
+  path: assets/label-reference-2026-10-07.png
+  roles:
+  - visual
+  - evidence
+  authority: user-approved
+  processing_status: processed
+  summary: User's 349x64 reference crop of the work-section label, marking the two
+    marks to remove. Measured from the pixels - a grey rule at x 36-61 on y 39
+    (the 1.6rem .overline::before element) and a hairline on y 32 running over
+    the sheet number and label (the Tailwind-generated overline decoration).
+  received_at: '2026-10-07'
+
+- id: SRC-VERSION-CONTROL
+  type: user-instruction
+  path: 2026-10-07-version-control.md
+  roles:
+  - explicit-requirement
+  - structure
+  authority: user-approved
+  processing_status: processed
+  summary: User instruction to initialize a Git repository in the application
+    root, add a sensible .gitignore for Laravel build output, local databases and
+    uploads, and make the first commit so the work has a rollback point.
+    Recorded with the ignore policy, the media judgement and the verification.
+  received_at: '2026-10-07'
+  extracted_items:
+  - DEC-012
+  - TASK-016
+
+- id: SRC-HERO-PREVIEW
+  type: user-instruction
+  path: 2026-10-07-hero-film-preview.md
+  roles:
+  - explicit-requirement
+  - visual
+  - ux
+  authority: user-approved
+  processing_status: processed
+  summary: User proposed making the Subaru 555 film the full-bleed hero background. The
+    recommendation against it, the four recorded reasons and the in-frame preview that was
+    chosen instead are in context/2026-10-07-hero-film-preview.md.
+  received_at: '2026-10-07'
+- id: SRC-RAFHIN-LANGUAGE
+  type: website
+  url: 'https://www.rafhin.com/'
+  roles:
+  - competitor
+  - visual
+  - structure
+  - evidence
+  authority: reference
+  processing_status: processed
+  summary: Live reference studio site studied in a browser. Typefaces, weights, type scale,
+    rail geometry and animation timing were measured from computed styles and from its own
+    stylesheets and scripts, and are recorded in context/2026-10-07-rafhin-design-language.md.
+    Principles only. No wordmark, slogan, copy, logo, client name, media asset, accent or
+    full-screen composition may be reused.
+  received_at: '2026-10-07'
+- id: SRC-DESIGN-LANGUAGE-INSTRUCTION
+  type: user-instruction
+  path: 2026-10-07-rafhin-design-language.md
+  roles:
+  - explicit-requirement
+  - visual
+  - ux
+  authority: user-approved
+  processing_status: processed
+  summary: Instruction to study the live reference in a browser and apply its font style
+    site-wide plus five numbered section behaviours, verifying the real live behaviour first,
+    keeping all existing behaviour working, and adding no dependency the site does not already
+    use.
+  received_at: '2026-10-07'
+  summary: User proposed making the Subaru 555 film the full-bleed background of
+    the hero and asked for an opinion before any change. Advised against and not
+    built; the approved alternative previews the same film inside its existing
+    contact-sheet frame on hover or keyboard focus, keeping the still as the first
+    paint. Reasons, implementation and verification are recorded in the note.
+  received_at: '2026-10-07'
+  extracted_items:
+  - DEC-013
+  - TASK-017

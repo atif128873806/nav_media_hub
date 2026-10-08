@@ -1,0 +1,31 @@
+version: 1
+id: vercel-react-best-practices
+name: Vercel React Best Practices
+category: upstream-guidance
+description: React and Next.js performance rules from Vercel. Use for React/Next.js
+  writing, review, data fetching, rendering, or performance work; preserve the project
+  architecture and installed versions.
+triggers:
+  keywords:
+  - react
+  - nextjs
+  - next.js
+  - performance
+  - rendering
+  intents:
+  - implement-frontend
+  - code-review
+  - performance
+  technologies:
+  - React
+  - Next.js
+recommended_with:
+- qa-review
+tools:
+- filesystem
+- terminal
+verification:
+- Apply relevant rules to the actual changed files.
+- Run existing project checks where appropriate.
+instructions: SKILL.md
+provenance: provenance.json

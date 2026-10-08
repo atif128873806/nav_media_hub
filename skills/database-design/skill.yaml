@@ -1,0 +1,29 @@
+version: 1
+id: database-design
+name: Database and Domain Integrity
+category: architecture
+description: Use for schema changes, relational modeling, migrations, transaction
+  boundaries, tenant isolation, inventory or booking concurrency, and data performance.
+triggers:
+  keywords:
+  - database
+  - schema
+  - migration
+  - inventory
+  - transaction
+  - concurrency
+  intents:
+  - database-change
+  - domain-change
+  - architecture
+  technologies: []
+recommended_with:
+- qa-review
+- security-review
+tools:
+- filesystem
+- terminal
+verification:
+- Check integrity constraints and query patterns.
+- Test migration and important concurrent operations when applicable.
+instructions: SKILL.md

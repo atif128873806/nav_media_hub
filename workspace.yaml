@@ -1,0 +1,36 @@
+version: 1
+release: 1.3.0
+name: Atif AI Workspace
+mode: provider-independent
+product_direction:
+  local_first: true
+  developer_focused: true
+  figma_required: false
+sources_of_truth:
+  global_agent_rules: AGENTS.md
+  user_rules: workspace/USER_RULES.md
+  workflow: workspace/WORKFLOW.md
+  routing: workspace/ROUTING.md
+  memory_model: workspace/MEMORY_MODEL.md
+  reference_policy: workspace/REFERENCE_POLICY.md
+  context_intake: workspace/CONTEXT_INTAKE.md
+  authority: workspace/AUTHORITY.md
+  tool_policy: workspace/TOOL_POLICY.md
+  upstream_policy: workspace/UPSTREAM_POLICY.md
+  upstream_lock: workspace/upstream-lock.yaml
+paths:
+  projects: projects
+  skills: skills
+  agents: agents
+  schemas: workspace/schemas
+  registries: workspace/registries
+execution:
+  default_agent: orchestrator
+  require_project_context_for_code_changes: true
+  require_verification_before_completion: true
+  update_project_state_after_task: true
+  runtime_implemented: false
+provider_policy:
+  provider_specific_rules_must_be_optional: true
+  entry_contract: AGENTS.md
+  capabilities_checked_at_runtime: true
